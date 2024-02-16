@@ -1,0 +1,63 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#container {
+    max-width: 300px;
+  
+    /* Center the container in middle on horizontal axis */
+    margin: 0 auto;
+  
+    /* Add empty space above the container (20% of the view height) */
+    margin-top: 20vh;
+  }
+
+.card{
+    background-color: white;
+
+    /* border: 1px solid #bacdd8; */
+
+    padding: 15px;
+
+    border-radius: 12px;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+    text-align: center;
+  }
+
+.card__details {
+    /* Add space around the details */
+    padding: 16px 8px 8px 8px;
+  }
+
+  .attribution {
+    position: fixed; /* Set the position to fixed */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    padding: 10px; /* Add padding for better visibility (optional) */
+    background-color: #f0f0f0; /* Set a background color (optional) */
+  }
+  
